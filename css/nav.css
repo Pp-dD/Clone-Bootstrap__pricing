@@ -1,0 +1,73 @@
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  height: 70px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.nav__company-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.125rem;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.nav__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 400px;
+  margin-left: auto;
+}
+
+.fa-bars {
+  display: none;
+}
+
+.nav__menu .list:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 576px) {
+  .nav__menu .list {
+    display: none;
+  }
+  .nav__menu .fa-bars {
+    display: block;
+    position: absolute;
+    font-size: 1.5rem;
+    right: 20px;
+  }
+}
+
+.nav__menu .nav__menu-sign-up:hover {
+  text-decoration: none;
+  color: #f6efee;
+  background-color: #197278;
+}
+
+/* .nav__menu-features {
+}
+
+.nav__menu-enterprise {
+}
+
+.nav__menu-support {
+}
+
+.nav__menu-pricing {
+}
+
+.nav__menu-sign-up {
+} */
+
+.nav__menu-sign-up {
+  border: 2px solid #197278;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 500;
+  color: #197278;
+  transition: color 0.125s ease-in-out, background-color 0.125s ease-in-out;
+}

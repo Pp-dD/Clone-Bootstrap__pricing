@@ -1,0 +1,48 @@
+.footer {
+  font-family: "Segoe UI";
+  max-width: calc(100% * 0.95);
+  border-top: 1px solid lightslategray;
+  display: flex;
+  align-items: flex-start;
+  margin: 0px auto;
+  margin-top: auto;
+  margin-bottom: 40px;
+  padding: 40px 10px;
+}
+
+@media screen and (min-width: 958px) {
+  .footer {
+    max-width: calc(958px * 0.95);
+  }
+}
+
+.footer__logo-title-logo {
+  width: 24px;
+  height: 24px;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 1.5rem;
+  color: white;
+  background-color: #283d3b;
+}
+
+.footer .list {
+  min-width: 25%;
+}
+
+.footer .title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.footer .cont {
+  display: block;
+  line-height: 1.35rem;
+  color: rgb(131, 131, 131);
+}
+
+.footer .cont:hover {
+  text-decoration: underline;
+}
