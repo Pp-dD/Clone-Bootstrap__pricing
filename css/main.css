@@ -29,7 +29,7 @@
 
 .main__items .item {
   border: 1px solid #197278;
-  border-radius: 10px;
+  border-radius: 15px;
   margin: 0 auto;
   margin-bottom: 30px;
   width: 90%;
@@ -76,6 +76,8 @@
 
 .main__items .title {
   border-bottom: 1px solid #197278;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
   background-color: #197278;
   text-align: center;
   font-size: 1.5rem;
