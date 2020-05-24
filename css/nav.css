@@ -37,13 +37,17 @@
   .nav__menu .fa-bars {
     display: block;
     position: absolute;
-    font-size: 1.55rem;
+    font-size: calc(1.55rem * 0.85);
     left: calc(180vw * 0.5);
   }
   .nav {
     position: fixed;
-    background-color: white;
     top: 0px;
+    height: calc(70px * 0.85);
+    background-color: white;
+  }
+  .nav__company-name {
+    font-size: calc(1.25rem * 0.85);
   }
 }
 
