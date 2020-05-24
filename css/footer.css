@@ -3,6 +3,7 @@
   max-width: calc(100% * 0.95);
   border-top: 1px solid lightslategray;
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   margin: 0px auto;
   margin-top: auto;
@@ -45,4 +46,34 @@
 
 .footer .cont:hover {
   text-decoration: underline;
+}
+
+.footer__logo {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 576px) {
+  .footer__logo,
+  .footer__about {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .footer__features,
+  .footer__resources {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .footer__logo {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .footer__features,
+  .footer__resources,
+  .footer__about {
+    flex: 0 0 50%;
+    max-width: calc(100% / 3);
+  }
 }

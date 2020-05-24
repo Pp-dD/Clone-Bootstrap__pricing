@@ -41,7 +41,7 @@
 }
 
 .main__items .item {
-  border: 1px solid #197278;
+  border: 1px solid #283d3b;
   border-radius: 15px;
   margin: 0 auto;
   margin-bottom: 30px;
@@ -88,10 +88,10 @@
 }
 
 .main__items .title {
-  border-bottom: 1px solid #197278;
+  border-bottom: 1px solid #283d3b;
   border-top-left-radius: 13px;
   border-top-right-radius: 13px;
-  background-color: #197278;
+  background-color: #283d3b;
   text-align: center;
   font-size: 1.5rem;
   color: #f6efee;
@@ -122,9 +122,9 @@
 }
 
 .main__items .btn {
-  border: 1px solid #197278;
+  border: 1px solid #283d3b;
   border-radius: 5px;
-  color: #197278;
+  color: #283d3b;
   font-weight: 400;
   padding: 15px 0px;
   font-size: 1.25rem;
@@ -136,16 +136,16 @@
 }
 
 .main__items-free-cont-btn:hover {
-  color: #f6efee;
-  background-color: #197278;
+  color: #fff;
+  background-color: #283d3b;
 }
 
 .main__items .btn2 {
-  background-color: #197278;
-  color: #f6efee;
+  background-color: #283d3b;
+  color: #fff;
 }
 
 .main__items .btn2:hover {
-  background-color: #083e42;
-  border-color: #083e42;
+  background-color: rgb(32, 49, 48);
+  border-color: rgb(32, 49, 48);
 }
