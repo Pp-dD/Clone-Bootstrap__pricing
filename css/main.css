@@ -11,6 +11,12 @@
   font-weight: 200;
 }
 
+@media screen and (max-width: 576px) {
+  .main__title {
+    margin-top: 140px;
+  }
+}
+
 .main__desc {
   text-align: center;
   font-size: 1.25rem;
