@@ -57,6 +57,12 @@
     0 16.9px 16.9px rgba(0, 0, 0, 0.079), 0 30px 30px rgba(0, 0, 0, 0.1);
 }
 
+@media screen and (max-width: 576px) {
+  .main__items .item {
+    margin-bottom: 60px;
+  }
+}
+
 @media screen and (min-width: 576px) and (max-width: 767px) {
   .main__items {
     display: flex;
