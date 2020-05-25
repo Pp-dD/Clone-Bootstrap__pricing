@@ -20,3 +20,8 @@ body {
   color: #000000;
   font-family: "Noto Serif KR", serif;
 }
+
+::selection {
+  background-color: #197278;
+  color: #f6efee;
+}
