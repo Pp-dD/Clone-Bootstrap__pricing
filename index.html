@@ -96,11 +96,41 @@
         <a class="nav__menu-enterprise list" href="#">Enterprise</a>
         <a class="nav__menu-support list" href="#">Support</a>
         <a class="nav__menu-pricing list" href="#">Pricing</a>
-        <a class="nav__menu-sign-up list" href="#">Sign up</a>
+        <div class="nav__menu-sign-up list">
+          <input type="checkbox" id="menuBtn" />
+          <label for="menuBtn" class="labelBtn" onclick="">Sign up</label>
+          <div class="submenu">
+            <form class="login-form" action="javascript:void(0);">
+              <h1>Login</h1>
+              <div class="form-control">
+                <input
+                  type="text"
+                  name="username"
+                  id="username"
+                  placeholder=" "
+                  autocomplete="off"
+                  required
+                />
+                <label for="username">Username</label>
+              </div>
+              <div class="form-control">
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder=" "
+                  autocomplete="off"
+                  required
+                />
+                <label for="password">Password</label>
+              </div>
+              <button type="submit" class="btn">Login</button>
+            </form>
+          </div>
+        </div>
         <a class="fas fa-bars" href="#"></a>
       </div>
     </div>
-    <div class="separador"></div>
     <div class="main">
       <div class="main__title">Pricing</div>
       <div class="main__desc">
